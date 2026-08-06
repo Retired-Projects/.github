@@ -11,18 +11,6 @@ flowchart LR
     b -- 안 씀 --> d[Retired-Projects로 이전]
 ```
 
-### 보관 흐름
-
-```mermaid
-sequenceDiagram
-    participant O as 소유자
-    participant P as 프로젝트
-    participant R as Retired-Projects
-    O->>P: 한동안 방치
-    O->>R: 정리 겸 이전
-    R->>O: 필요하면 언제든 다시 꺼내볼 수 있음
-```
-
 ## PR 규칙
 
 이 조직으로 레포를 옮기거나 여기서 PR을 올릴 때는 아래를 먼저 확인합니다.
